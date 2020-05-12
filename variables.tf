@@ -1,6 +1,7 @@
 variable "name" {
   default = "demo-cluster"
 }
+
 variable "project" {
   default = "optimum-spring-238818"
 }
@@ -14,5 +15,6 @@ variable "initial_node_count" {
 }
 
 variable "machine_type" {
-  default = "n1-standard-1"  
+  default = "n1-standard-1"
 }
+
